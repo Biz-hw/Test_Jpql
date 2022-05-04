@@ -62,7 +62,7 @@ public class AccountTest {
 
         Integer id = 1;
         String accountCode = "456678";
-        String name = "퇴근";
+        String name = "집";
 
         Account account = new Account();
         account.setId(id);
