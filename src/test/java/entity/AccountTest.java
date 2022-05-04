@@ -95,7 +95,7 @@ public class AccountTest {
         EntityManager entityManager = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = entityManager.getTransaction();
 
-        Integer id = 3;
+        Integer id = 4;
 
         Object reference = entityManager.getReference(Account.class, id);
 
