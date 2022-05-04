@@ -28,6 +28,7 @@ public class AccountTest {
         account.setName("test");
         account.setCreatedAt(new Date());
 
+        /*테스트 진행중_최형*/
 
         try{
             transaction.begin();
